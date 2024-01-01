@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body,html{
+    height: 100%;
+    width: 100%;
+    background-color: #242424;
+  }
+  
+.Pokemon-List-Wrapper{
+    color: aliceblue;
+    
+
+    
+
+
+}
+.List-titlle{
+    /* position: relative; */
+    
+    color: aliceblue;
+    margin-top: 1rem;
+    margin-left: 42%;
+    font-size: 30px;
+    letter-spacing: 2px;
+
+
+}
+#Isloading {
+    display: flex;
+    flex-wrap: wrap; /* Allows items to wrap to the next line */
+    list-style: none; /* Removes default list styles */
+    padding: 0;
+  }
+  
+  /* Style for each list item */
+  #Isloading div {
+    flex: 0 0 calc(33.33% - 10px); /* Distribute items equally with a gap of 10px */
+    background-color: #f2f2f2;
+    padding: 10px;
+    margin: 5px; /* Margin between items */
+    box-sizing: border-box; /* Include padding and border in the item's total width */
+    text-align: center;
+  }
+  .controls{
+    position: absolute;
+    left: 50%;
+    
+
+  }
+  .controls button{
+    padding: 10px;
+    color: #242424;
+    background-color: #c8ff00;
+    font-size: large;
+    font-weight: 600;
+    box-shadow: #f2f2f2;
+    border-radius: 1rem;
+    margin: 4px;
+    
+  }
