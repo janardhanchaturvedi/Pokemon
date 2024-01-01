@@ -1,8 +1,14 @@
-# React + Vite
+So Using this Project Know Some Basic thing
+Like we are using the Pokedex API which was freely available on the Internet
+the API Give the data of the first 20 Pokemon characters
+After that we just Click on Next the it will fetch the another 20 data
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---------------------------------------------------------------------------------
+How to integrate
+Step-> Clone the repository
+=> Run npm install
+=> cd POKEDEX
+=> npm run dev
+ 
+Thats it you are done Setting your New Project
+------------------------------------------------------------------------------------
