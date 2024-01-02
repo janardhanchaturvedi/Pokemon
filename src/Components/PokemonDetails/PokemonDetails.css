@@ -1,0 +1,50 @@
+*{
+    /* color: aliceblue; */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+}
+body,html{
+    height: 100%;
+    width:100%;
+   
+
+}
+.body{
+    position: absolute;
+    top:15%;
+    left: 50%;
+    transform: translate(-50%,0%);
+
+}
+
+
+.Pokemon-Card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    width: 500px;
+    background-color: #fff;
+    color: #242424;
+    font-size: larger;
+    font-weight: 800;
+
+}
+.Pokemon-Card-image{
+    height: 350px;
+    width: 350px;
+}
+.Pokemon-Card-image img{
+    height: 100%;
+    width: 100%;
+    max-width: 400px;
+    max-height: 400px;
+    margin-bottom: 1rem;
+}
+.Pokemon-Card span{
+    letter-spacing: 7px;
+}

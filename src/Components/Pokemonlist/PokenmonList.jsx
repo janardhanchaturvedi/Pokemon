@@ -48,10 +48,8 @@ function PokemonList() {
     <div className="Pokemon-List-Wrapper">
       <h4 className="List-titlle">Pokemon List</h4>
       <div id="Isloading">
-        {isLoading
-          ? "isLoading....."
-          : pokemonList.map((p) => (
-              <Pokemons name={p.name} image={p.image} key={p.id} />
+        {isLoading? "isLoading.....": pokemonList.map((p) => (
+              <Pokemons name={p.name} image={p.image} key={p.id} id={p.id} />
             ))}
       </div>
       <div className="controls">
